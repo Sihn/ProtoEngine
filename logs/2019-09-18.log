@@ -1,0 +1,71 @@
+[DEBUG] 18:48:34 : ===============================================
+[DEBUG] 18:48:34 : == Vagabond ==
+[DEBUG] 18:48:34 : ===============================================
+[DEBUG] 18:48:35 : Added : GameLoop
+[DEBUG] 18:48:35 : Added : OnlineLoop
+[DEBUG] 18:48:35 : Added : ParticlesLoop
+[DEBUG] 18:48:35 : Added : TicTacToeLoop
+[DEBUG] 18:51:13 : ===============================================
+[DEBUG] 18:51:13 : 
+[DEBUG] 18:51:15 : ===============================================
+[DEBUG] 18:51:15 : == Vagabond ==
+[DEBUG] 18:51:15 : ===============================================
+[DEBUG] 18:51:15 : Added : GameLoop
+[DEBUG] 18:51:15 : Added : OnlineLoop
+[DEBUG] 18:51:15 : Added : ParticlesLoop
+[DEBUG] 18:51:15 : Added : TicTacToeLoop
+[DEBUG] 18:53:43 : ===============================================
+[DEBUG] 18:53:43 : 
+[DEBUG] 23:28:57 : ===============================================
+[DEBUG] 23:28:57 : == Vagabond ==
+[DEBUG] 23:28:57 : ===============================================
+[DEBUG] 23:28:58 : Added : GameLoop
+[DEBUG] 23:28:58 : Added : OnlineLoop
+[DEBUG] 23:28:58 : Added : ParticlesLoop
+[DEBUG] 23:28:58 : Added : TicTacToeLoop
+[DEBUG] 23:31:50 : ===============================================
+[DEBUG] 23:31:50 : 
+[DEBUG] 23:31:52 : ===============================================
+[DEBUG] 23:31:52 : == Vagabond ==
+[DEBUG] 23:31:52 : ===============================================
+[DEBUG] 23:31:52 : Added : GameLoop
+[DEBUG] 23:31:52 : Added : OnlineLoop
+[DEBUG] 23:31:52 : Added : ParticlesLoop
+[DEBUG] 23:31:52 : Added : TicTacToeLoop
+[DEBUG] 23:32:44 : ===============================================
+[DEBUG] 23:32:44 : 
+[DEBUG] 23:32:47 : ===============================================
+[DEBUG] 23:32:47 : == Vagabond ==
+[DEBUG] 23:32:47 : ===============================================
+[DEBUG] 23:32:47 : Added : GameLoop
+[DEBUG] 23:32:47 : Added : OnlineLoop
+[DEBUG] 23:32:47 : Added : ParticlesLoop
+[DEBUG] 23:32:47 : Added : TicTacToeLoop
+[INFO] 23:32:49 : Launch TCP and UDP servers...
+[INFO] 23:32:49 : Thread TCP started.
+[INFO] 23:32:49 : Wait for client...
+[INFO] 23:32:49 : Thread UDP started.
+[INFO] 23:33:13 : Stop servers...
+[INFO] 23:33:13 : Servers stoped.
+[INFO] 23:33:13 : Thread TCP stopped.
+[INFO] 23:33:13 : Thread UDP stopped.
+[DEBUG] 23:33:13 : ===============================================
+[DEBUG] 23:33:13 : 
+[DEBUG] 23:33:21 : ===============================================
+[DEBUG] 23:33:21 : == Vagabond ==
+[DEBUG] 23:33:21 : ===============================================
+[DEBUG] 23:33:22 : Added : GameLoop
+[DEBUG] 23:33:22 : Added : OnlineLoop
+[DEBUG] 23:33:22 : Added : ParticlesLoop
+[DEBUG] 23:33:22 : Added : TicTacToeLoop
+[DEBUG] 23:38:14 : ===============================================
+[DEBUG] 23:38:14 : 
+[DEBUG] 23:38:17 : ===============================================
+[DEBUG] 23:38:17 : == Vagabond ==
+[DEBUG] 23:38:17 : ===============================================
+[DEBUG] 23:38:17 : Added : GameLoop
+[DEBUG] 23:38:17 : Added : OnlineLoop
+[DEBUG] 23:38:17 : Added : ParticlesLoop
+[DEBUG] 23:38:17 : Added : TicTacToeLoop
+[DEBUG] 23:41:01 : ===============================================
+[DEBUG] 23:41:01 : 

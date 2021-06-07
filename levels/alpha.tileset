@@ -1,0 +1,72 @@
+#==========================================================================================
+# Tile
+#------------------------------------------------------------------------------------------
+# couleur du tile(RRGGBB)
+#	 : z,ligne,colonne[,animations][ / z,ligne,colonne[,animation]][ / ...]
+#	 : passable : isLiquid(true, false) : damage;
+#==========================================================================================
+# Roche
+000000 : Roche : Background,0,3
+	: CannotPass : false : 0;
+
+# Caverne
+808080 : Caverne : Background,2,3
+	: CanPass : false : 0;
+
+# Herbe
+00FF00 : Herbe : Background,0,3 / Background,1,0
+	: CannotPass : false : 0;
+
+# Herbe (traversable)
+00FF80 : Herbe : Foreground,1,0
+	: TopBlocked : false : 0;
+
+# Herbe (traversable) sur caverne
+004040 : Herbe : Background,2,3 / Foreground,1,0
+	: TopBlocked : false : 0;
+
+# Sable
+FFFF00 : Sable : Background,0,3 / Background,1,1
+	: CannotPass : false : 0;
+
+# Surface de l'eau
+00FFFF : Eau : Foreground,12,0,4
+	: CanPass : false : 0;
+
+# Surface de l'eau, sur roche
+008080 : Eau : Background,2,3 / Foreground,12,0,4
+	: CanPass : false : 0;
+
+# Eau
+0000FF : Eau : Foreground,13,0,4
+	: CanPass : true : 0;
+
+# Eau, sur roche
+000080 : Eau : Background,2,3 / Foreground,13,0,4
+	: CanPass : true : 0;
+
+# Buche
+800000 : Buche : Background,10,0
+	: CanPass : false : 0;
+
+# Feuilles
+008000 : Feuilles : Foreground,11,0
+	: TopBlocked : false : 0;
+
+# Feuilles, sur sommet de buche
+808001 : Buche : Background,10,1 / Foreground,11,0
+	: TopBlocked : false : 0;
+
+# Feuilles, sur buche
+808000 : Buche : Background,10,0 / Foreground,11,0
+	: TopBlocked : false : 0;
+
+#==========================================================================================
+# Entité
+#------------------------------------------------------------------------------------------
+# couleur de l'entité(RRGGBB) : nom l'entité(player, scroll) : couleur du tile(RRGGBB);
+#==========================================================================================
+FF0000 : player : FFFFFF; # Joueur
+FF00FF : shard : FFFFFF; # Parchemin
+800080 : shard : 000080; # Parchemin, sur eau
+FF0080 : croacroa : FFFFFF; # Ennemi

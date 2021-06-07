@@ -1,0 +1,18 @@
+#==========================================================================================
+# Paramètres
+#------------------------------------------------------------------------------------------
+# name : Nom_du_niveau; # Commentaires
+# image : image à utiliser pour le niveau;
+# tileset_name : image du tileset à utiliser pour le niveau;
+# tileset_data : données du tileset à utiliser pour le niveau;
+# tile_size : taille des tiles du tileset (dites-le 10 fois très vite);
+# tile_size_ingame : taille des tiles dans le jeu;
+# sky_colors : RRGGBB[,RRGGBB,...]
+#==========================================================================================
+name : "Arbre géant";
+image : tree.bmp;
+tileset_name : alpha.png;
+tileset_data : alpha;
+tile_size : 32;
+tile_size_ingame : 32;
+sky_colors : 009900, 66CC66

@@ -1,0 +1,92 @@
+#==========================================================================================
+# Tile
+#------------------------------------------------------------------------------------------
+# couleur du tile(RRGGBB)
+#	 : z,ligne,colonne[,animations][ / z,ligne,colonne[,animation]][ / ...]
+#	 : passable : isLiquid(true, false) : damage;
+#==========================================================================================
+# Roche
+000000 : Roche : Background,0,3
+	: CannotPass : false : 0;
+
+# Caverne
+808080 : Caverne : Background,1,0
+	: CanPass : false : 0;
+
+# Fleurs
+80FFFF : Fleurs : Foreground,3,0,4
+	: CanPass : false : 0;
+
+# Herbe
+00FF00 : Herbe : Background,0,3 / Background,0,1
+	: CannotPass : false : 0;
+
+# Herbe (traversable)
+00FF80 : Herbe : Foreground,2,0
+	: TopBlocked : false : 0;
+
+# Herbe (traversable) sur caverne
+004040 : Herbe : Background,1,0 / Foreground,2,0
+	: TopBlocked : false : 0;
+
+# Sable
+FFFF00 : Sable : Background,0,3 / Background,0,2
+	: CannotPass : false : 0;
+
+# Surface de l'eau
+00FFFF : Eau : Foreground,4,0,4
+	: CanPass : false : 0;
+
+# Surface de l'eau, sur roche
+008080 : Eau : Background,1,0 / Foreground,4,0,4
+	: CanPass : false : 0;
+
+# Eau
+0000FF : Eau : Foreground,5,0,4
+	: CanPass : true : 0;
+
+# Eau, sur roche
+000080 : Eau : Background,1,0 / Foreground,5,0,4
+	: CanPass : true : 0;
+
+# Buche
+800000 : Buche : Background,1,1
+	: CanPass : false : 0;
+
+# Feuilles
+008000 : Feuilles : Foreground,1,3
+	: TopBlocked : false : 0;
+
+# Feuilles, sur sommet de buche
+808001 : Buche : Background,1,2 / Foreground,1,3
+	: TopBlocked : false : 0;
+
+# Feuilles, sur buche
+808000 : Buche : Background,1,1 / Foreground,1,3
+	: TopBlocked : false : 0;
+
+# Pente descendante (haut)
+668000 : Herbe : Background,6,0
+	: UpToDown : false : 0;
+
+# Pente ascendante (haut)
+008066 : Herbe : Background,6,1
+	: DownToUp : false : 0;
+
+# Pente descendante (bas)
+668001 : Herbe : Background,6,2
+	: CanPass : false : 0;
+
+# Pente ascendante (bas)
+018066 : Herbe : Background,6,3
+	: CanPass : false : 0;
+
+#==========================================================================================
+# Entité
+#------------------------------------------------------------------------------------------
+# couleur de l'entité(RRGGBB) : nom l'entité(player, scroll) : couleur du tile(RRGGBB);
+#==========================================================================================
+FF0000 : player : FFFFFF; # Joueur
+FF0080 : croacroa : FFFFFF; # Ennemi
+FF00FF : shard : FFFFFF; # Parchemin
+800080 : shard : 000080; # Parchemin, sur eau
